@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "782864947509",
+    "firebase_url": "https://vromonolgy.firebaseio.com",
+    "project_id": "vromonolgy",
+    "storage_bucket": "vromonolgy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782864947509:android:918b56f26487d66f",
+        "android_client_info": {
+          "package_name": "com.example.a12dha270.vromonology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782864947509-lmqe3nvq756c6nrumef93r2t1nsv06gk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
