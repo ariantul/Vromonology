@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
     tools:context=".UserLoginActivity">
     <ScrollView
         android:layout_width="match_parent"
@@ -38,30 +39,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/appGreetings"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="casual"
                 android:hint="enter email"
                 android:inputType="textEmailAddress"
-                android:textSize="15sp" />
+                android:textSize="12sp" />
             <EditText
                 android:id="@+id/userPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/adminUsername"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="casual"
                 android:inputType="textPassword"
                 android:hint="enter password"
-                android:textSize="15sp" />
+                android:textSize="12sp" />
 
             <Button
                 android:id="@+id/btnLogin"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Login"
                 android:fontFamily="casual"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:textStyle="bold"
                 android:textColor="#faf9f9"
                 android:layout_gravity="center"
@@ -75,10 +76,10 @@
                 android:layout_height="wrap_content"
                 android:text="Forgot Password?"
                 android:fontFamily="casual"
-                android:textSize="15sp"
+                android:textSize="12sp"
                 android:layout_marginTop="5dp"
                 android:layout_gravity="center"
-                android:textColor="#f90419"
+                android:textColor="#ff0901"
                 android:id="@+id/forgotPass"
                 android:onClick="resetPass"/>
             <TextView
@@ -86,28 +87,28 @@
                 android:layout_height="wrap_content"
                 android:text="OR"
                 android:fontFamily="casual"
-                android:textSize="15sp"
+                android:textSize="10sp"
                 android:textStyle="bold"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_gravity="center"
-                android:textColor="#0410f9"/>
+                android:textColor="#f9f7f7"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="New to Vromonology?"
                 android:fontFamily="casual"
-                android:textSize="15sp"
-                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"
                 android:layout_gravity="center"
-                android:textColor="#f90419"/>
+                android:textColor="#ff0901"/>
             <Button
                 android:id="@+id/btnCreateAccount"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Create Account"
                 android:fontFamily="casual"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:textStyle="bold"
                 android:textColor="#faf9f9"
                 android:layout_gravity="center"
@@ -116,6 +117,23 @@
                 android:background="#046fa4"
                 android:onClick="createUser">
             </Button>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OR"
+                android:fontFamily="casual"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="#f9f7f7"/>
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -123,7 +141,7 @@
                 android:text="©2018 AppSAM Inc."
                 android:textSize="13sp"
                 android:textStyle="bold"
-                android:textColor="#3b0274"
+                android:textColor="#740256"
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center"
                 android:layout_below="@+id/btnCreateAccount"
