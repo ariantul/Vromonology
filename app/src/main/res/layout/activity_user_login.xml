@@ -68,7 +68,7 @@
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                 android:background="#046fa4"
-                android:onClick="userLogin">
+                android:onClick="loginUser">
             </Button>
             <TextView
                 android:layout_width="wrap_content"
@@ -114,7 +114,7 @@
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                 android:background="#046fa4"
-                android:onClick="createAccount">
+                android:onClick="createUser">
             </Button>
 
             <TextView
